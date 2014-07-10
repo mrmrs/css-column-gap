@@ -6,8 +6,7 @@
   "keywords": [
     "css",
     "oocss",
-    "",
-    ""
+    "column-gap"
   ],
   "css-column-gap": {
     "type": "git",
