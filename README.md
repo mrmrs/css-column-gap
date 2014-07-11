@@ -25,7 +25,7 @@ or download the css on github and include in your project.
 .cg-n { column-gap: normal; }
 .cg-i { column-gap: inherit; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .cg-1-ns { column-gap: 1rem; }
   .cg-2-ns { column-gap: 2rem; }
   .cg-3-ns { column-gap: 4rem; }
@@ -33,7 +33,7 @@ or download the css on github and include in your project.
   .cg-i-ns { column-gap: inherit; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .cg-1-m { column-gap: 1rem; }
   .cg-2-m { column-gap: 2rem; }
   .cg-3-m { column-gap: 4rem; }
@@ -41,7 +41,7 @@ or download the css on github and include in your project.
   .cg-i-m { column-gap: inherit; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .cg-1-l { column-gap: 1rem; }
   .cg-2-l { column-gap: 2rem; }
   .cg-3-l { column-gap: 4rem; }
