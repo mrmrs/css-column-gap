@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-column-gap)
 ## File Size
 
 811B column-gap.css
-629B column-gap.min.css
+629B column-gap.min.css 
+186B minified and gzipped
 
 ## The Code
 ```
