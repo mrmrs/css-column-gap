@@ -1,38 +1,44 @@
 {
   "name": "css-column-gap",
-  "style": "column-gap.css",
-  "version": "1.0.8",
-  "homepage": "http://github.com/mrmrs/css-column-gap",
-  "description": "Css module of single purpose classes for column gap",
+  "version": "2.0.0",
+  "description": "Functional CSS for column-gap",
+  "style": "dist/column-gap.css",
+  "main": "dist/column-gap.css",
+  "exports": {
+    ".": "./dist/column-gap.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "column-gap"
+    "column-gap",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-column-gap": {
+  "homepage": "https://github.com/mrmrs/css-column-gap",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-column-gap.git"
+    "url": "https://github.com/mrmrs/css-column-gap.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-column-gap/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-column-gap/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
