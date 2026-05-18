@@ -6,8 +6,8 @@ Functional CSS for column-gap
 
 | File | Size |
 |------|------|
-| `dist/column-gap.css` | 2442 bytes |
-| `dist/column-gap.min.css` | 1786 bytes (236 Gzipped) |
+| `dist/column-gap.css` | 873 bytes |
+| `dist/column-gap.min.css` | 589 bytes (169 Gzipped) |
 
 ## Install
 
@@ -39,45 +39,26 @@ npm install css-column-gap
 
 | Class   | Value                    |
 |---------|--------------------------|
-| `.column-gap0` | `column-gap: var(--size-0);` |
-| `.column-gap1` | `column-gap: var(--size-1);` |
-| `.column-gap2` | `column-gap: var(--size-2);` |
-| `.column-gap3` | `column-gap: var(--size-3);` |
-| `.column-gap4` | `column-gap: var(--size-4);` |
-| `.column-gap5` | `column-gap: var(--size-5);` |
-| `.column-gap6` | `column-gap: var(--size-6);` |
-| `.column-gap7` | `column-gap: var(--size-7);` |
-| `.column-gap8` | `column-gap: var(--size-8);` |
-| `.column-gap9` | `column-gap: var(--size-9);` |
-| `.column-gap10` | `column-gap: var(--size-10);` |
-| `.column-gap11` | `column-gap: var(--size-11);` |
-| `.column-gap12` | `column-gap: var(--size-12);` |
-| `.column-gap0` | `column-gap: var(--size-0);` |
-| `.column-gap1` | `column-gap: var(--size-1);` |
-| `.column-gap2` | `column-gap: var(--size-2);` |
-| `.column-gap3` | `column-gap: var(--size-3);` |
-| `.column-gap4` | `column-gap: var(--size-4);` |
-| `.column-gap5` | `column-gap: var(--size-5);` |
-| `.column-gap6` | `column-gap: var(--size-6);` |
-| `.column-gap7` | `column-gap: var(--size-7);` |
-| `.column-gap8` | `column-gap: var(--size-8);` |
-| `.column-gap9` | `column-gap: var(--size-9);` |
-| `.column-gap10` | `column-gap: var(--size-10);` |
-| `.column-gap11` | `column-gap: var(--size-11);` |
-| `.column-gap12` | `column-gap: var(--size-12);` |
-| `.column-gap0` | `column-gap: var(--size-0);` |
-| `.column-gap1` | `column-gap: var(--size-1);` |
-| `.column-gap2` | `column-gap: var(--size-2);` |
-| `.column-gap3` | `column-gap: var(--size-3);` |
-| `.column-gap4` | `column-gap: var(--size-4);` |
-| `.column-gap5` | `column-gap: var(--size-5);` |
-| `.column-gap6` | `column-gap: var(--size-6);` |
-| `.column-gap7` | `column-gap: var(--size-7);` |
-| `.column-gap8` | `column-gap: var(--size-8);` |
-| `.column-gap9` | `column-gap: var(--size-9);` |
-| `.column-gap10` | `column-gap: var(--size-10);` |
-| `.column-gap11` | `column-gap: var(--size-11);` |
-| `.column-gap12` | `column-gap: var(--size-12);` |
+| `.cg-1` | `column-gap: 1rem;` |
+| `.cg-2` | `column-gap: 2rem;` |
+| `.cg-3` | `column-gap: 4rem;` |
+| `.cg-n` | `column-gap: normal;` |
+| `.cg-i` | `column-gap: inherit;` |
+| `.cg-1-s` | `column-gap: 1rem;` |
+| `.cg-2-s` | `column-gap: 2rem;` |
+| `.cg-3-s` | `column-gap: 4rem;` |
+| `.cg-n-s` | `column-gap: normal;` |
+| `.cg-i-s` | `column-gap: inherit;` |
+| `.cg-1-m` | `column-gap: 1rem;` |
+| `.cg-2-m` | `column-gap: 2rem;` |
+| `.cg-3-m` | `column-gap: 4rem;` |
+| `.cg-n-m` | `column-gap: normal;` |
+| `.cg-i-m` | `column-gap: inherit;` |
+| `.cg-1-l` | `column-gap: 1rem;` |
+| `.cg-2-l` | `column-gap: 2rem;` |
+| `.cg-3-l` | `column-gap: 4rem;` |
+| `.cg-n-l` | `column-gap: normal;` |
+| `.cg-i-l` | `column-gap: inherit;` |
 
 ### Responsive
 
@@ -89,7 +70,7 @@ Responsive variants are available for each class with the following suffixes:
 | `-m`   | `min-width: 48em`        |
 | `-l`   | `min-width: 96em`        |
 
-Example: `.column-gap0-m` applies the property at the medium breakpoint and above.
+Example: `.cg-1-m` applies the property at the medium breakpoint and above.
 
 ## Building
 
